@@ -7,7 +7,7 @@
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	hash_node_t *node == NULL;
+	hash_node_t *node = NULL;
 	unsigned long int i = 0;
 	short pr_commas = 0;
 
@@ -26,11 +26,11 @@ void hash_table_print(const hash_table_t *ht)
 				printf(", ");
 
 			pr_commas = 1;
-			printf("'%s'", (char *) node->key,
+			printf("%s", (char *) node->key,
 							  (char *) node->value);
 
 			node = node->next;
 		}
 	}
-	print("}\n");
+	printf("}\n");
 }
