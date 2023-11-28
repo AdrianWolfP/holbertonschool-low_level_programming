@@ -3,7 +3,7 @@
 /**
  * hash_djb2 - use of the djb2 algorithm that will be implementated
  *@str: string input
-Return: the hash table
+Return: 1, otherwise 0
 */
 unsigned long int hash_djb2(const unsigned char *str)
 {
