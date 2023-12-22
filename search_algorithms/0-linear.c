@@ -1,4 +1,4 @@
-#include "search_algo.h"
+#include "search_algos.h"
 /**
 * linear_search - searchs array for value
 * @array: pointer to element
